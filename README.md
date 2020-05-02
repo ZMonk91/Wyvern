@@ -4,6 +4,44 @@ A custom UI Framework for DragonRuby. It utilizes a Fluid Interface design (simi
 # Installation
 1.  Drop the wyvern folder inside of `mygame/app/` 
 2. Add `require /app/wyvern/index.rb` to the top of your `main.rb` file
+# Features
+ - Custom Shapes:
+    * circle
+    * hexagon
+    * pentagon
+    * pill
+    * rectangle 
+    * rectangle_rounded 
+    * square 
+    * square_rounded 
+    * star 
+    * triangle
+    * triangle_rounded
+ 
+ - Pre-defined Color Library (from Material Palette)
+    * :amber
+   * :black
+   * :blue
+   * :blue_grey
+   * :brown
+   * :cyan
+   * :dark
+   * :dark_grey
+   * :deep_orange
+   * :deep_purple
+   * :green
+   * :grey
+   * :indigo
+   * :light_blue
+   * :light_green
+   * :lime
+   * :orange
+   * :pink
+   * :purple
+   * :red
+   * :teal
+   * :white
+   * :yellow
 
 ## Example
 Here's an example file to begin:
