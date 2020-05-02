@@ -1,5 +1,6 @@
 # Wyvern
-A custom UI Framework for DragonRuby. It utilizes a Fluid Interface design (similar to Javascript). 
+A custom UI Framework for DragonRuby. It utilizes a Fluid Interface design (similar to Javascript).
+This allows easier support for dynamic changes with user interactivity.  
 
 # Installation
 1.  Drop the wyvern folder inside of `mygame/app/` 
@@ -42,7 +43,13 @@ A custom UI Framework for DragonRuby. It utilizes a Fluid Interface design (simi
    * :teal
    * :white
    * :yellow
+ 
 
+## Coming Soon
+ - Drop Shadow Support
+ - Primitives Support
+ - Custom Border Shape Support
+ - Predefined Components (Buttons, Cards, Toolbars)
 ## Example
 Here's an example file to begin:
 ```ruby 
