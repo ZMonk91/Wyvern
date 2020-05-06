@@ -3,8 +3,8 @@ A custom UI Framework for DragonRuby. It utilizes a Fluid Interface design (simi
 This allows easier support for dynamic changes with user interactivity.  
 
 # Installation
-1.  Drop the wyvern folder inside of `mygame/app/` 
-2. Add `require /app/wyvern/index.rb` to the top of your `main.rb` file
+1. Drop the wyvern folder inside of `mygame/app/` 
+2. Add `require '/app/wyvern/index.rb'` to the top of your `mygame/app/main.rb` file
 # Features
  - Custom Shapes:
     * circle
@@ -53,7 +53,7 @@ This allows easier support for dynamic changes with user interactivity.
 ## Example
 Here's an example file to begin:
 ```ruby 
-# Main.rb
+# mygame/app/main.rb
 require '/app/wyvern/index.rb'
 
 def render_sample
@@ -145,7 +145,7 @@ def render_sample
 end
 
 def tick( args)
-  rende_sample
+  render_sample
 end
 
 def labels
